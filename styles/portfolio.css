@@ -41,15 +41,53 @@ nav li a{
     text-decoration: none;
 }
 .header{
-    border: #fff8f3;
+    background-color: #fff8f3;
+    background-image:url(/pexels-moose-photos-1037995.jpg);
+
 
 }
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 0px 30px 30px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-around;
 }
 .banner .picture{
     height: 400px;
     width: 300px;
+}
+.b-greeting{
+    font-size: 45px;
+    margin-bottom: 0px;
+}
+.b-name{
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.b-content{
+    max-width: 800px;
+}
+.context{
+    margin-top: 5px;
+}
+.about{
+    padding: 130px;
+    border: 1px solid rgb(92, 87, 87);
+    border-radius: 10px;
+    background-color: rgb(212, 248, 248);
+    margin: 100px 80px;
+}
+.section-tittle{
+    color: black;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+}
+.section{
+    color: rgb(54, 51, 51);
+    text-align: center;
+    font-size: 18px;
 }
