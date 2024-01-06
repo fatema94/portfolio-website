@@ -20,6 +20,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0px 180px;
 }
 .nav-tittle{
     color: navy;
@@ -38,4 +39,17 @@ nav li{
 }
 nav li a{
     text-decoration: none;
+}
+.header{
+    border: #fff8f3;
+
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .picture{
+    height: 400px;
+    width: 300px;
 }
