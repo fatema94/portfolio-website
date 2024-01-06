@@ -1,0 +1,41 @@
+body{
+    font-family: 'Exo 2', sans-serif;
+font-family: 'Open Sans', sans-serif;
+}
+.text-primary{
+    color: rgb(251, 81, 138);
+}
+.btn-primary{
+    border-radius: 5px;
+    background-color: rgb(251, 81, 138);
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 30px;
+
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-tittle{
+    color: navy;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px
+}
+nav li a{
+    text-decoration: none;
+}
